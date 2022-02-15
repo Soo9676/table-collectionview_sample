@@ -17,8 +17,8 @@
 		6817CB0B27BA180B00B77B6F /* sampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6817CB0A27BA180B00B77B6F /* sampleUITests.swift */; };
 		6817CB0D27BA180B00B77B6F /* sampleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6817CB0C27BA180B00B77B6F /* sampleUITestsLaunchTests.swift */; };
 		6817CB1A27BA3B2D00B77B6F /* ArrayDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6817CB1927BA3B2D00B77B6F /* ArrayDataModel.swift */; };
-		6817CB1E27BA4D7F00B77B6F /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6817CB1D27BA4D7F00B77B6F /* CollectionViewController.swift */; };
-		6817CB2027BA54AB00B77B6F /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6817CB1F27BA54AB00B77B6F /* TableViewController.swift */; };
+		6817CB2227BB741A00B77B6F /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6817CB2127BB741A00B77B6F /* TableViewController.swift */; };
+		6817CB2427BB761900B77B6F /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6817CB2327BB761900B77B6F /* CollectionViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,8 +53,8 @@
 		6817CB0A27BA180B00B77B6F /* sampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sampleUITests.swift; sourceTree = "<group>"; };
 		6817CB0C27BA180B00B77B6F /* sampleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sampleUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		6817CB1927BA3B2D00B77B6F /* ArrayDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayDataModel.swift; sourceTree = "<group>"; };
-		6817CB1D27BA4D7F00B77B6F /* CollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
-		6817CB1F27BA54AB00B77B6F /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		6817CB2127BB741A00B77B6F /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		6817CB2327BB761900B77B6F /* CollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,8 +108,8 @@
 				6817CAE927BA180A00B77B6F /* AppDelegate.swift */,
 				6817CAEB27BA180A00B77B6F /* SceneDelegate.swift */,
 				6817CAED27BA180A00B77B6F /* MainViewController.swift */,
-				6817CB1D27BA4D7F00B77B6F /* CollectionViewController.swift */,
-				6817CB1F27BA54AB00B77B6F /* TableViewController.swift */,
+				6817CB2327BB761900B77B6F /* CollectionViewController.swift */,
+				6817CB2127BB741A00B77B6F /* TableViewController.swift */,
 				6817CAEF27BA180A00B77B6F /* Main.storyboard */,
 				6817CB1927BA3B2D00B77B6F /* ArrayDataModel.swift */,
 				6817CAF227BA180B00B77B6F /* Assets.xcassets */,
@@ -267,8 +267,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6817CB1E27BA4D7F00B77B6F /* CollectionViewController.swift in Sources */,
-				6817CB2027BA54AB00B77B6F /* TableViewController.swift in Sources */,
+				6817CB2427BB761900B77B6F /* CollectionViewController.swift in Sources */,
+				6817CB2227BB741A00B77B6F /* TableViewController.swift in Sources */,
 				6817CAEE27BA180A00B77B6F /* MainViewController.swift in Sources */,
 				6817CB1A27BA3B2D00B77B6F /* ArrayDataModel.swift in Sources */,
 				6817CAEA27BA180A00B77B6F /* AppDelegate.swift in Sources */,

@@ -2,13 +2,16 @@
 //  TableViewController.swift
 //  sample
 //
-//  Created by soo on 2022/02/14.
+//  Created by soo on 2022/02/15.
 //
 
 import UIKit
 
 class TableViewController: UITableViewController {
 
+    @IBOutlet var tableListView: TableViewController!
+    let data = ArrayData().array
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -23,23 +26,23 @@ class TableViewController: UITableViewController {
 
     override func numberOfSections(in tableView: UITableView) -> Int {
         // #warning Incomplete implementation, return the number of sections
-        return 0
+        return 1
     }
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
-        return 0
+        return data.count
     }
 
-    /*
+    
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "reuseIdentifier", for: indexPath)
-
-        // Configure the cell...
-
+        let cell = tableView.dequeueReusableCell(withIdentifier: "myCell", for: indexPath)
+        
+        cell.contentConfiguration? = data[(indexPath as NSIndexPath).row]
+        
         return cell
     }
-    */
+    
 
     /*
     // Override to support conditional editing of the table view.
