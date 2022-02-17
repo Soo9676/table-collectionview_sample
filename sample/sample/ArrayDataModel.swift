@@ -11,5 +11,7 @@ open class ArrayData{
     public init() {}
     
 //    let array = [("a","b"), ("c","d")]
-    let array = ["a", "b", "c", "d"]
+    
+    
+    
 }
