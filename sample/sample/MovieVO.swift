@@ -12,5 +12,6 @@ open class MovieVO {
     var director: String?
     var leadActor: String?
     var runningTime: Int?
+    var thumbnail: String?
 
 }
